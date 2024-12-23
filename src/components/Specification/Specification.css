@@ -1,0 +1,154 @@
+.specificationSection {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr 3fr 1fr;
+  gap: 5px;
+  padding: 2rem 4px;
+}
+
+.specificationBox {
+  width: auto;
+  height: 12rem;
+  background: #d5f2c8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.specTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2.5rem;
+  background: #4a7437;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+.specList {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+
+.specElement {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+@media (max-width:1300px) {
+  .specTitle{
+    font-size: 18px;
+  }
+  .specElement{
+    font-size: 18px;
+  }
+}
+
+@media (max-width:1130px) {
+  .specTitle{
+    font-size: 17px;
+  }
+  .specElement{
+    font-size: 16px;
+  }
+}
+
+@media (max-width:1020px) {
+  .specTitle{
+    font-size: 17px;
+  }
+  .specElement{
+    font-size: 15px;
+  }
+}
+
+@media (max-width:950px) {
+  .specTitle{
+    font-size: 15px;
+  }
+  .specElement{
+    font-size: 13px;
+  }
+}
+
+@media (max-width:830px) {
+  .specTitle{
+    font-size: 13px;
+  }
+  .specElement{
+    font-size: 11px;
+  }
+  .specList{
+    gap: 0.1rem;
+  }
+  .specificationBox{
+    height: 8rem;
+  }
+}
+
+@media (max-width:730px) {
+  .specTitle{
+    font-size: 12px;
+  }
+  .specElement{
+    font-size: 9px;
+  }
+}
+
+@media (max-width:600px) {
+  .specTitle{
+    font-size: 10px;
+  }
+  .specElement{
+    font-size: 7.5px;
+  }
+}
+
+@media (max-width:500px) {
+  .specTitle{
+    font-size: 8px;
+  }
+  .specElement{
+    font-size: 6px;
+  }
+}
+
+@media (max-width:410px) {
+  .specTitle{
+    font-size: 7px;
+  }
+  .specElement{
+    font-size: 5px;
+  }
+}
+
+@media (max-width:360px) {
+  .specTitle{
+    font-size: 6px;
+  }
+  .specElement{
+    font-size: 4px;
+  }
+  .specList{
+    gap: 0px;
+  }
+}

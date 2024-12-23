@@ -1,0 +1,82 @@
+.premierSection {
+  width: 100%;
+  padding-bottom: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.premierTitle {
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.premierDesc {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+@media (max-width: 960px) {
+  .premierTitle {
+    font-size: 28px;
+  }
+  .premierDesc {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 700px) {
+  .premierTitle {
+    font-size: 22px;
+  }
+  .premierDesc {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .premierSection {
+    gap: 0.5rem;
+  }
+  .premierTitle {
+    font-size: 18px;
+  }
+  .premierDesc {
+    font-size: 12px;
+    line-height: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .premierSection {
+    gap: 0.2rem;
+  }
+  .premierTitle {
+    font-size: 14px;
+  }
+  .premierDesc {
+    font-size: 10px;
+    line-height: 1rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .premierSection {
+    display: none;
+  }
+}

@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.logo {
+  width: auto;
+  height: 80%;
+}
+
+.contactImage {
+  height: 85%;
+  width: auto;
+}
+
+.accountSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.downloadBox {
+  width: 44.02px;
+  height: 44.02px;
+  overflow: hidden;
+  object-fit: contain;
+  object-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #e6f5e0;
+}
+.downloadImage {
+  width: auto;
+  height: 35.22px;
+}
+
+.downloadText {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 4rem;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.accountBox {
+  width: 44.02px;
+  height: 44.02px;
+  background: #38b000;
+  box-shadow: 0px 4px 22px 0px #00000026;
+  overflow: hidden;
+  object-fit: contain;
+  object-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.accountText {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    height: 4.5rem;
+    padding: 0.5rem 1rem;
+  }
+  .download {
+    display: none;
+  }
+  .logo {
+    height: 70%;
+    width: auto;
+  }
+  .contactImage {
+    height: 75%;
+    width: auto;
+  }
+  .account {
+    height: 3.5rem;
+    gap: 0px;
+  }
+  .accountBox {
+    width: 35.04px;
+    height: 35.04px;
+  }
+  .accountText {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 440px) {
+  .navbar {
+    height: 4.5rem;
+    padding: 0.5rem 1rem;
+  }
+  .download {
+    display: none;
+  }
+  .logo {
+    height: 60%;
+    width: auto;
+  }
+  .contactImage {
+    height: 60%;
+    width: auto;
+  }
+  .account {
+    height: 2.5rem;
+    gap: 0px;
+  }
+  .accountBox {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .avatar {
+    width: 130%;
+    height: auto;
+  }
+  .accountText {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 364px) {
+  .navbar {
+    padding: 0.5rem 0.65rem;
+  }
+  .logo {
+    height: 50%;
+    width: auto;
+  }
+  .contactImage {
+    height: 58%;
+    width: auto;
+  }
+  .account {
+    height: 2.5rem;
+    gap: 0px;
+  }
+  .accountBox {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .avatar {
+    width: 130%;
+    height: auto;
+  }
+  .accountText {
+    font-size: 10px;
+  }
+}

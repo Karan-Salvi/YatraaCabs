@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.hero {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.mainSection {
+  width: 100%;
+  height: 80vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.blurBack {
+  position: absolute;
+  background: #000000;
+  border-radius: 45rem 25rem;
+  width: 1100px;
+  height: 1100px;
+  top: -185.02px;
+  left: -241px;
+  gap: 0px;
+  opacity: 0.4;
+  backdrop-filter: blur(200px);
+}
+
+.heroContainer {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-image: url("https://s3-alpha-sig.figma.com/img/d2d9/3c47/abf65e6a667c112ee138901c5ae357a3?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U6XapkY7y-nG6bMevkgfjqdgOo0owLAn20twJeD8i2On0RsS5mYpXHSVmK8DPbX-g8dWV3-5C4GIpK-azizo6VqtCIJadyjlDMa6~J8BZKEwVHtL6evS~2R-APtTYVtZqfzHpBgkELCUTkAEX-ONbqocuukHUZVNhscQuf5S0Do-kkupp8lzVo8mr3mPrS8pMjIvg5Ke~8LtfIBHzRi-BRZ4oDh-z4V2N6G4rVqLLfHSRTGGk-TW2D8Ls42F-MAASumeZY8e0kHk2-4~9ulaZsYQDMKMGdc4YHCaOtC242Ni5eGVcndOGQMh3zRhSqh-afxIVnRLiklvKEjvOcPa0w__");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  padding: 2rem;
+}
+
+.mainLeft {
+  font-family: "Poppins";
+  font-weight: 100;
+  z-index: 50;
+}
+
+.mainTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 55px;
+  line-height: 57.02px;
+  color: #ffffff;
+}
+
+.activeText {
+  color: #45d203;
+  font-weight: 600;
+}
+
+.promotion {
+  background: #d9d9d9;
+  width: 97%;
+  height: 161px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 0px;
+  padding: 1rem 1.5rem;
+}
+
+.billing {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bilingTitle {
+  font-family: Lato;
+  font-size: 41.82px;
+  font-weight: 600;
+  line-height: 50.18px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.billingText {
+  font-family: Lato;
+  font-size: 26.61px;
+  font-weight: 300;
+  line-height: 31.93px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+
+.downloadNow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+
+.downloadNowTitle {
+  font-family: Lato;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31.2px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.downloadImages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.returnFare {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.returnFareTitle {
+  font-family: Lato;
+  font-size: 41.82px;
+  font-weight: 600;
+  line-height: 50.18px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+
+.returnFareText {
+  font-family: Lato;
+  font-size: 26.61px;
+  font-weight: 300;
+  line-height: 31.93px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}

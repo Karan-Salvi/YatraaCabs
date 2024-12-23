@@ -1,0 +1,146 @@
+.bookingSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.leftBooking {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 2rem;
+}
+
+.bookingTitle {
+  font-family: "Inter";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 53.46px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #585858;
+}
+.bookingTitleActive {
+  color: #216900;
+}
+
+.bookingDesc {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.bookingDescActive {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.rightBooking {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.bookingImage {
+  width: 95%;
+  height: auto;
+}
+
+@media (max-width: 1000px) {
+  .bookingTitle {
+    font-size: 40px;
+  }
+  .bookingDesc {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 900px) {
+  .bookingTitle {
+    font-size: 34px;
+  }
+  .bookingDesc {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 700px) {
+  .leftBooking {
+    gap: 0.2rem;
+  }
+  .bookingTitle {
+    font-size: 28px;
+    line-height: 2.2rem;
+  }
+  .bookingDesc {
+    font-size: 14px;
+    line-height: 1.2rem;
+  }
+  .bookingDescActive {
+    font-size: 14px;
+    line-height: 1.2rem;
+  }
+  .bookingSection{
+    gap: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bookingTitle {
+    font-size: 20px;
+    line-height: 1.75rem;
+  }
+  .bookingDesc {
+    font-size: 10px;
+    line-height: 1rem;
+  }
+  .bookingDescActive {
+    font-size: 10px;
+    line-height: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bookingTitle {
+    font-size: 16px;
+    line-height: 1.2rem;
+  }
+  .bookingDesc {
+    font-size: 9px;
+    line-height: 0.9rem;
+  }
+  .bookingDescActive {
+    font-size: 9px;
+    line-height: 0.9rem;
+  }
+  
+}
+
+@media screen and (max-width: 350px) {
+  .bookingTitle {
+    font-size: 12px;
+    line-height: 1rem;
+  }
+  .bookingDesc {
+    font-size: 7px;
+    line-height: 0.65rem;
+  }
+  .bookingDescActive {
+    font-size: 7px;
+    line-height: 0.65rem;
+  }
+}

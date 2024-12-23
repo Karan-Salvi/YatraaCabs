@@ -1,0 +1,204 @@
+.aboutSection {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.leftAbout {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.aboutImage {
+  width: 95%;
+  height: auto;
+}
+
+.rightAbout {
+  width: 55%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.rightAboutTitle {
+  font-family: "Inter";
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 89.1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #585858;
+}
+
+.rightActive {
+  color: #216900;
+}
+
+.AboutComponent {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+}
+
+.aboutInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.AboutImageBox {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.aboutComponentImage {
+  width: 4rem;
+  height: 4rem;
+}
+
+.aboutInfoTitle {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #216900;
+}
+
+.aboutInfoText {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.miniRightAboutTitle {
+  font-family: "Inter";
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 89.1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #585858;
+  display: none;
+}
+
+.miniRightActive {
+  color: #216900;
+}
+
+@media (max-width: 1300px) {
+  .aboutInfoText {
+    font-size: 14px;
+  }
+  .aboutInfoTitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 960px) {
+  .aboutInfoText {
+    font-size: 11px;
+  }
+  .aboutInfoTitle {
+    font-size: 15px;
+  }
+  .rightAbout {
+    gap: 0.5rem;
+  }
+  .aboutInfo {
+    gap: 1px;
+  }
+  .aboutComponentImage {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .rightAboutTitle {
+    display: none;
+  }
+  .aboutSection {
+    width: 100%;
+    flex-direction: column;
+  }
+  .leftAbout {
+    width: 100%;
+  }
+  .rightAbout {
+    width: 100%;
+  }
+
+  .rightAbout {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  .miniRightAboutTitle {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutInfoTitle {
+    font-size: 14px;
+  }
+  .aboutInfoText {
+    font-size: 10px;
+    line-height: 1.1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .aboutInfoTitle {
+    font-size: 12px;
+  }
+  .aboutInfoText {
+    font-size: 9px;
+    line-height: 0.9rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .aboutInfoTitle {
+    font-size: 10px;
+  }
+  .aboutInfoText {
+    font-size: 7px;
+    line-height: 0.75rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .aboutInfoTitle {
+    font-size: 8px;
+  }
+  .aboutInfoText {
+    font-size: 6px;
+    line-height: 0.75rem;
+  }
+  .rightAbout {
+    gap: 6px;
+  }
+}
