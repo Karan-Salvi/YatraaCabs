@@ -3,10 +3,11 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   gap: 2rem;
-  
+  padding: 0rem 10px;
+
   /* padding-bottom:1rem ; */
 }
 .infoTitle {
@@ -72,7 +73,6 @@
 }
 
 .infoDesc {
-  padding: 0rem 2rem;
   text-align: center;
   font-family: Poppins;
   font-size: 36px;
@@ -163,6 +163,7 @@
     height: 13rem;
   }
   .infoDesc {
+    line-height: 2rem;
     font-size: 18px;
   }
   .infoDescActive {
@@ -191,7 +192,7 @@
   }
   .infoDesc {
     font-size: 16px;
-    line-height: 0rem;
+    line-height: 1.75rem;
   }
   .infoDescActive {
     font-size: 16px;
@@ -221,8 +222,9 @@
     font-size: 24px;
   }
   .infoDesc {
+    padding-top: 15px;
     font-size: 14px;
-    line-height: 0rem;
+    line-height: 1.65rem;
   }
   .infoDescActive {
     font-size: 14px;
@@ -249,7 +251,7 @@
   }
   .infoDesc {
     font-size: 12px;
-    line-height: 0rem;
+    line-height: 1.25rem;
   }
   .infoDescActive {
     font-size: 12px;
@@ -257,6 +259,12 @@
 }
 
 @media (max-width: 550px) {
+  .infoTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+  }
   .infoElement {
     font-size: 4px;
     line-height: 0.6rem;
@@ -272,8 +280,10 @@
     height: 6rem;
   }
   .infoDesc {
+    padding-top: 8px;
+    margin: 0px;
     font-size: 8px;
-    line-height: 0rem;
+    line-height: 1rem;
   }
   .infoDescActive {
     font-size: 8px;
@@ -299,5 +309,8 @@
   }
   .infoTitle {
     font-size: 16px;
+  }
+  .infoDesc{
+    line-height: 0.6rem;
   }
 }

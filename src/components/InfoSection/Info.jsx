@@ -32,8 +32,8 @@ export default function Info() {
           </ul>
         </div>
         <p className="infoDesc">
-          Discover affordable travel with our seamless{" "}
-          <span className="infoDescActive">INTERCITY CAR RENTALS</span> in India
+          Discover affordable travel with our seamless
+          <span className="infoDesc infoDescActive"> INTERCITY CAR RENTALS</span> in India
           – where excellence meets affordability with standardized rates in
           every city. Unleash your journey!
         </p>

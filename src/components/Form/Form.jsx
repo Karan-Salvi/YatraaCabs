@@ -272,7 +272,7 @@ export default function Form() {
               <label htmlFor="trip">PICK UP</label>
               <div className="innnerInput">
                 <input type="text" className="" id="trip" />
-                <img src="./images/calender.svg" alt="" />
+                <img src="./images/calender.svg" className="formImages" alt="" />
               </div>
             </div>
           </div>
@@ -282,7 +282,7 @@ export default function Form() {
               <label htmlFor="pickAt">PICK UP AT </label>
               <div className="innnerInput">
                 <input type="text" className="" id="pickAt" />
-                <img src="./images/clock.svg" alt="" />
+                <img src="./images/clock.svg" className="formImages" alt="" />
               </div>
             </div>
           </div>
