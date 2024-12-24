@@ -10,10 +10,8 @@ export default function Hero() {
           <div className="heroContainer">
             <div className="mainLeft">
               <h1 className="mainTitle">
-                India's <span className="activeText">Leading</span> <br />
-                <span className="activeText">
-                  One-Way Inter-City
-                </span> <br /> Cab Service Provider
+                India's <span className="activeText">Leading One-Way Inter-City
+                </span> Cab Service Provider
               </h1>
             </div>
             <div className="mainRight">

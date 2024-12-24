@@ -2,7 +2,7 @@
 
 .hero {
   width: 100%;
-  height: 90vh;
+  height: 48rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -13,14 +13,12 @@
 
 .mainSection {
   width: 100%;
-  height: auto;
-  background-color: black;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   overflow: hidden;
-  gap: 10rem;
 }
 
 .blurBack {
@@ -38,7 +36,7 @@
 
 .heroContainer {
   width: 100%;
-  height: auto;
+  height: 80vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,6 +57,7 @@
 }
 
 .mainTitle {
+  width: 90%;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-size: 55px;
@@ -178,4 +177,156 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .heroContainer {
+    background-color: black;
+    height: 250rem;
+  }
+  .promotion {
+    position: relative;
+    margin: 1rem;
+  }
+  .bilingTitle {
+    font-size: 28px;
+    line-height: 2rem;
+  }
+  .billingText {
+    font-size: 20px;
+  }
+  .downloadNowTitle {
+    font-size: 28px;
+  }
+  .downloadImages img {
+    height: 3.75rem;
+    width: auto;
+  }
+  .returnFareTitle {
+    font-size: 28px;
+  }
+  .returnFareText {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 900px) {
+  .bilingTitle {
+    font-size: 24px;
+    line-height: 2rem;
+  }
+  .billingText {
+    font-size: 18px;
+    line-height: 1.5rem;
+  }
+  .downloadNowTitle {
+    font-size: 24px;
+  }
+  .downloadImages img {
+    height: 3rem;
+    width: auto;
+  }
+  .returnFareTitle {
+    line-height: 2rem;
+    font-size: 24px;
+  }
+  .returnFareText {
+    font-size: 18px;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .mainTitle {
+    font-size: 45.5px;
+  }
+}
+
+@media (max-width: 760px) {
+  .hero {
+    height: auto;
+  }
+  .mainSection {
+    gap: 1rem;
+    height: auto;
+  }
+  .promotion {
+    position: relative;
+    height: auto;
+  }
+  .heroContainer {
+    height: auto;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .mainLeft {
+    width: 100%;
+  }
+  .mainRight {
+    width: 100%;
+  }
+  .mainTitle {
+    font-size: 30px;
+    text-align: center;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .bilingTitle {
+    font-size: 18px;
+    line-height: 1.2rem;
+  }
+  .billingText {
+    font-size: 14px;
+    line-height: 1rem;
+  }
+  .downloadNowTitle {
+    font-size: 18px;
+  }
+  .downloadImages img {
+    height: 2rem;
+    width: auto;
+  }
+  .returnFareTitle {
+    line-height: 1.5rem;
+    font-size: 18px;
+  }
+  .returnFareText {
+    font-size: 14px;
+    line-height: 1rem;
+  }
+  .promotion{
+    height: auto;
+  }
+}
+
+@media (max-width: 460px) {
+  .bilingTitle {
+    font-size: 12px;
+    line-height: 0.81rem;
+  }
+  .billingText {
+    font-size: 10px;
+    line-height: 0.81rem;
+  }
+  .downloadNowTitle {
+    font-size: 14px;
+  }
+  .downloadImages img {
+    height: 1.5rem;
+    width: auto;
+  }
+  .returnFareTitle {
+    line-height: 1.2rem;
+    font-size: 12px;
+  }
+  .returnFareText {
+    font-size: 10px;
+    line-height: 1rem;
+  }
+
 }

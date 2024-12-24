@@ -2,7 +2,7 @@
 import { useState } from "react";
 import "./Form.css";
 export default function Form() {
-  const [options, setOptions] = useState("LOCAL");
+  const [options, setOptions] = useState("OUTSTATION");
   const [subOptions, setSubOptions] = useState("ONE WAY");
 
   return (
