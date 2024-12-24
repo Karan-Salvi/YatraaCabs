@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 2fr 3fr 1fr 3fr 1fr;
   gap: 5px;
-  padding: 2rem 4px;
+  padding: 0rem 4px;
 }
 
 .specificationBox {

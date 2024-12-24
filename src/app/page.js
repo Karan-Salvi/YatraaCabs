@@ -7,22 +7,24 @@ import Booking from "@/components/Booking/Booking";
 import Info from "@/components/InfoSection/Info";
 import Discover from "@/components/Discover/Discover";
 import Footer from "@/components/Footer/Footer";
-import Form from "@/components/Form/Form";
+import styles from "@/app/page.module.css";
 
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Content />
-      <Premier />
-      <About />
-      <Specification />
-      <Booking />
-      <Info />
-      <Discover />
-      <Footer />
-
-      {/* <Form /> */}
+      <main className={styles.mainContainer}>
+        <Hero />
+        <Content />
+        <Premier />
+        <About />
+        <section className={styles.priority}>
+          <Specification />
+          <Booking />
+        </section>
+        <Info />
+        <Discover />
+        <Footer />
+      </main>
     </>
   );
 }
