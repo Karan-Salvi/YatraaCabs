@@ -2,34 +2,51 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <footer className="footer">
-      <img src="./images/logo.svg" alt="logo" />
-      <ul>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About Us</a>
-        </li>
-        <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">News</a>
-        </li>
-        <li>
-          <a href="#">Contact Us</a>
-        </li>
-        <li>
-          <a href="#">Privacy Policy</a>
-        </li>
-      </ul>
-      <div className="subscribeBox">
-        <h4>Newsletter</h4>
-        <div className="subscribeInput">
-          <input type="text" placeholder="Enter your email address" />
-          <button>Subscribe</button>
+      <section className="footerBox">
+        <img src="./images/logo.svg" alt="logo" className="footerLogo" />
+        <ul className="footerNav">
+          <li className="footerNavElement">
+            <a href="#" className="footerNavLink">
+              Home
+            </a>
+          </li>
+          <li className="footerNavElement">
+            <a href="#" className="footerNavLink">
+              About Us
+            </a>
+          </li>
+          <li className="footerNavElement">
+            <a href="#" className="footerNavLink">
+              Services
+            </a>
+          </li>
+          <li className="footerNavElement">
+            <a href="#" className="footerNavLink">
+              News
+            </a>
+          </li>
+          <li className="footerNavElement">
+            <a href="#" className="footerNavLink">
+              Contact Us
+            </a>
+          </li>
+          <li className="footerNavElement">
+            <a href="#" className="footerNavLink">
+              Privacy Policy
+            </a>
+          </li>
+        </ul>
+        <div className="subscribeBox">
+          <h4 className="subTitle">Newsletter</h4>
+          <div className="subscribeInput">
+            <input type="text" placeholder="Email" className="subInput" />
+            <button className="subBtn">
+              <img src="./images/subscribe.svg" alt="" />
+            </button>
+          </div>
         </div>
-      </div>
+        <p className="copyright">All Copyrights are reserved by YATRI CABS</p>
+      </section>
     </footer>
   );
 }

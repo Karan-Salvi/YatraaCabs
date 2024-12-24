@@ -7,6 +7,7 @@ import Booking from "@/components/Booking/Booking";
 import Info from "@/components/InfoSection/Info";
 import Discover from "@/components/Discover/Discover";
 import Footer from "@/components/Footer/Footer";
+import Form from "@/components/Form/Form";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
       <Info />
       <Discover />
       <Footer />
+
+      {/* <Form /> */}
     </>
   );
 }

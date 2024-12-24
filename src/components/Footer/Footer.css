@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.footer {
+  width: 100%;
+  height: 165px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  height: 100%;
+
+  padding: 6px;
+}
+
+.footerLogo {
+  width: 184.9px;
+  height: 60px;
+  gap: 0px;
+  border-radius: 2px;
+}
+
+.footerNav {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.footerNavLink {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+}
+
+.footerNavElement {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+}
+
+.subscribeBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.subTitle {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.subscribeInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 17.5rem;
+  height: 1.25rem;
+  background-color: green;
+}
+
+.subInput {
+  height: 100%;
+  width: 80%;
+  border: none;
+  padding: 1rem;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.subInput:focus {
+  outline: none;
+}
+
+.subBtn {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #ffffff;
+  background: #000000;
+}
+
+.copyright {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+@media (max-width: 450px) {
+  .footerBox {
+    width: 100%;
+  }
+  .footerLogo {
+    width: auto;
+    height: 40px;
+  }
+  .subTitle {
+    font-size: 12px;
+  }
+  .footerNavLink {
+    font-size: 10px;
+  }
+  .footerNav {
+    gap: 4px;
+  }
+}
+
+@media (max-width: 400px) {
+  .subscribeBox {
+    width: 85%;
+  }
+}
+
+@media (max-width: 360px) {
+  .footerLogo {
+    width: auto;
+    height: 32px;
+  }
+  .subTitle {
+    font-size: 10px;
+  }
+  .footerNavLink {
+    font-size: 9px;
+  }
+}

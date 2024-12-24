@@ -1,4 +1,5 @@
 "use client";
+import Form from "../Form/Form";
 import "./Hero.css";
 
 export default function Hero() {
@@ -16,44 +17,7 @@ export default function Hero() {
               </h1>
             </div>
             <div className="mainRight">
-              <div className="exploreBox">
-                <div className="options">
-                  <button className="optionsBtn">Outstation</button>
-                  <button className="optionsBtn">Local</button>
-                  <button className="optionsBtn">Airport</button>
-                </div>
-                <div className="subOptions">
-                  <button className="optionsBtn">One Way</button>
-                  <button className="optionsBtn">Round Trip</button>
-                </div>
-              </div>
-              <div className="inputBoxes">
-                <div className="inputBox">
-                  <div className="input">
-                    <label htmlFor="from">FROM</label>
-                    <input type="text" className="" id="from" />
-                  </div>
-                  <img src="./images/compare_arrows.svg" alt="arrows" />
-                  <div className="input">
-                    <label htmlFor="to">TO</label>
-                    <input type="text" className="" id="to" />
-                  </div>
-                </div>
-                <div className="inputBox">
-                  <div className="input">
-                    <label htmlFor="from">FROM</label>
-                    <input type="text" className="" id="from" />
-                  </div>
-                  <img src="./images/compare_arrows.svg" alt="arrows" />
-                  <div className="input">
-                    <label htmlFor="to">TO</label>
-                    <input type="text" className="" id="to" />
-                  </div>
-                </div>
-              </div>
-              <div className="buttonBox">
-                <button className="exploreButton">EXPLORE CABS</button>
-              </div>
+              <Form />
             </div>
             <div className="blurBack"></div>
           </div>
